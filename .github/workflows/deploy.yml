@@ -36,5 +36,5 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./out/ # Subimos solo lo que Next.js compiló adentro de out
-          server-dir: /public_html/ # La raíz de tu hosting en SiteGround
+          local-dir: ./out/
+          server-dir: /acevedopucci.com/public_html/
